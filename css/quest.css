@@ -1,0 +1,135 @@
+
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+.fullwidth-block {
+    padding: 30px 0;
+  }
+
+
+.inner-content {
+    padding: 30px 0;
+  }
+
+
+.section-title {
+    margin: 0 0 30px;
+    color:#000;
+    font-weight: 600;
+    text-align: center;
+  }
+
+
+.section-second-title {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0 15px 30px;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    background-color: #FE7F2D;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    cursor: pointer;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.short-hr {
+    display: block;
+    border-width: 2px;     
+    border-style: solid;  
+    /* border-color: #f99100;     */
+    width: 200px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.accordion {
+    overflow: hidden;
+    border-top: 3px solid #fedc0082;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+ 
+.accordion .accordion-toggle {
+    position: relative;
+    padding: 10px  30px 10px 0;
+  }
+
+.accordion .accordion-toggle h3 {
+    display: inline-block;
+    margin: 0 20px 0 0;
+    vertical-align: middle;
+    color: black;
+    font-weight: 500;
+    font-size: 18px;
+    font-size: 1.125rem;
+  }
+@media screen and (max-width: 990px) {
+    .accordion .accordion-toggle h3 {
+      display: block;
+    }
+  }
+.accordion .accordion-toggle span {
+    font-size: 14px;
+    font-size: 0.875rem;
+  }
+.accordion .accordion-toggle:after {
+    content: "\f107";
+    font-family: "FontAwesome";
+    text-align: center;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #e1e7db;
+    cursor: pointer;
+  }
+.accordion.expanded .accordion-toggle:after {
+    content: "\f106";
+    line-height: 1.8;
+  }
+.accordion .accordion-content {
+    display: none;
+    clear: both;
+    font-size: 16px;
+    font-size: 1rem;
+    padding: 10px 50px ;
+  }
+
+.date{
+    margin-right:5px;
+  }
+
+
+.link {
+    width: auto;
+    height: 250px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.link .left-picture {
+    height: 200px;
+
+}
+
+.link div {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 10px;
+}
